@@ -53,7 +53,7 @@
                                                      error:&e];
         
         NSString* jsonString = [[NSString alloc] initWithData:dataJson
-                                                     encoding:NSUTF8StringEncoding];
+                                                     encoding:NSASCIIStringEncoding];
         NSLog(@"JSON = %@", jsonString);
         
     } else {
